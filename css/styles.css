@@ -1,0 +1,140 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* --primary-text-color-theme-light: color: #2E2F42;
+    --secondary-text-color-theme-light: color: #434455;
+    --primary-text-color-theme-dark: #F4F4FD;
+    --secondary-text-color-theme-dark: #FFFFFF; */
+    --accent-color: #404BBF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+font-family: var(--primary-font);
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+/* ================COMPONENTS============ */
+.subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.descripion-theme-dark {
+ color: #F4F4FD;      
+}
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+}
+
+.logo {
+font-family: var(--secondary-font);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.2;
+text-transform: uppercase;
+/* color: #F4F4FD; */
+}
+/* ================/COMPONENTS============ */
+
+/* ================HEADER================ */
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color:#2E2F42;
+}
+
+.contact-mail, 
+.contact-phone {
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: var(--accent-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+color: var(--accent-color);
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+color: var(--accent-color);   
+}
+/* ===============/HEADER================= */
+
+/* ===============HERO================= */
+.modal-service-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+}
+
+.modal-service-btn:hover,
+.modal-service-btn:focus {
+    background-color: var(--accent-color);
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+        /* color: #FFFFFF;  */
+}
+
+/* ===============/HERO================= */
+
+
+
+/* ===============PORTFOLIO-PAGE================= */
+
+/* ===============FILTERS================= */
+.filter-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color: #F4F4FD;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
+/* ===============/FILTERS================= */
+
+/* ===============/PORTFOLIO-PAGE================= */
