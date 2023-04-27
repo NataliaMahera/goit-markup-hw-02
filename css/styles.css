@@ -107,8 +107,7 @@ color: var(--primary-text-color-theme-light);
 color: var(--accent-color);
 }
 /* ADDRESS */
-.contact-item-mail-link,
-.contact-item-phone-link {
+.contact-item-link {
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -116,15 +115,10 @@ letter-spacing: 0.02em;
 color: var(--secondary-text-color-theme-light);
 }
 
-.contact-item-mail-link:hover,
-.contact-item-mail-link:focus {
+.contact-item-link:hover,
+.contact-item-link:focus {
 color: var(--accent-color);   
 }   
-
-.contact-item-phone-link:hover,
-.contact-item-phone-link:focus {
-color: var(--accent-color);
-}
 /* ===============/HEADER================= */
 
 /* ===============HERO================= */
