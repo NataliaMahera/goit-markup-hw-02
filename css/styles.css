@@ -2,6 +2,7 @@
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --primary-text-color-theme-light: #2E2F42;
+    --primary-text-color-theme-dark: #F4F4FD;
     --accent-color: #404BBF;
     --accent-page-color: #4D5AE5;
     --background-color-theme-light: #FFFFFF;
@@ -72,12 +73,17 @@ color: var(--accent-page-color);
 font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
-line-height: 1.2;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase; 
-color: #F4F4FD;
+color: var(--accent-page-color);
 }
 
-.studio-logo {
+.studio-logo-theme-dark {
+    color: var(--primary-text-color-theme-dark);
+}
+
+.studio-logo-theme-light {
 color: var(--primary-text-color-theme-light);  
 }
 /* ================/COMPONENTS============ */
@@ -116,6 +122,7 @@ color: var(--accent-color);
 
 /* ===============HERO================= */
 .modal-service-btn {
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -133,11 +140,36 @@ background-color: var(--accent-page-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF; 
 }
 /* ===============/HERO================= */
 
+/* ===============FEATURES================= */
+.features-title {
+letter-spacing: 0.02em;
+}
+/* ===============/FEATURES================= */
+
+/* ================WORK EXAMPLES============= */
+.work-examples-title {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-text-color-theme-light);
+}
+/* ================/WORK EXAMPLES============= */
+
 /* ==============TEAM================= */
+.team-title {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-text-color-theme-light);
+}
+
 .team {
     background-color: #F4F4FD;
 }
