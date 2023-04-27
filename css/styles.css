@@ -19,6 +19,9 @@
 button {
     cursor: pointer;
 }
+address {
+    font-style: normal;
+}
 
 body {
 font-family: var(--primary-font);
@@ -90,10 +93,6 @@ color: var(--primary-text-color-theme-light);
 .menu-item-link:hover,
 .menu-item-link:focus {
 color: var(--accent-color);
-}
-
-.contact {
-font-style: normal;
 }
 
 .contact-item-mail-link,
