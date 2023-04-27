@@ -25,9 +25,12 @@ address {
     font-style: normal;
 }
 
+h1,h2,h3 {
+letter-spacing: 0.02em;    
+}
+
 body {
 font-family: var(--primary-font);
-letter-spacing: 0.02em;
 color:#434455;
 background-color: var(--background-color-theme-light);
 }
@@ -103,7 +106,7 @@ color: var(--primary-text-color-theme-light);
 .menu-item-link:focus {
 color: var(--accent-color);
 }
-
+/* ADDRESS */
 .contact-item-mail-link,
 .contact-item-phone-link {
 font-style: normal;
