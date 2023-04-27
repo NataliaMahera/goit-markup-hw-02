@@ -92,6 +92,10 @@ color: var(--primary-text-color-theme-light);
 color: var(--accent-color);
 }
 
+.contact {
+font-style: normal;
+}
+
 .contact-item-mail-link,
 .contact-item-phone-link {
 font-style: normal;
@@ -101,7 +105,7 @@ color: var(--primary-text-color-theme-light);
 }
 
 .contact-item-mail-link:hover,
-.contact-phone:focus {
+.contact-item-phone-link:focus {
 color: var(--accent-color);   
 }
 
