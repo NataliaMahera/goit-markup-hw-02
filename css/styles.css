@@ -27,6 +27,7 @@ address {
 
 body {
 font-family: var(--primary-font);
+letter-spacing: 0.02em;
 color:#434455;
 background-color: var(--background-color-theme-light);
 }
@@ -93,6 +94,7 @@ color: var(--primary-text-color-theme-light);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--primary-text-color-theme-light);
 }
 
@@ -106,6 +108,7 @@ color: var(--accent-color);
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--secondary-text-color-theme-light);
 }
 
