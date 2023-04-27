@@ -2,6 +2,7 @@
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --primary-text-color-theme-light: #2E2F42;
+    --secondary-text-color-theme-light: #434455;
     --primary-text-color-theme-dark: #F4F4FD;
     --accent-color: #404BBF;
     --accent-page-color: #4D5AE5;
@@ -26,7 +27,6 @@ address {
 
 body {
 font-family: var(--primary-font);
-letter-spacing: 0.02em;
 color:#434455;
 background-color: var(--background-color-theme-light);
 }
@@ -106,13 +106,13 @@ color: var(--accent-color);
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
-color: var(--primary-text-color-theme-light);
+color: var(--secondary-text-color-theme-light);
 }
 
 .contact-item-mail-link:hover,
-.contact-item-phone-link:focus {
+.contact-item-mail-link:focus {
 color: var(--accent-color);   
-}
+}   
 
 .contact-item-phone-link:hover,
 .contact-item-phone-link:focus {
@@ -154,6 +154,7 @@ letter-spacing: 0.02em;
 
 /* ================WORK EXAMPLES============= */
 .work-examples-title {
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
@@ -163,6 +164,7 @@ letter-spacing: 0.02em;
 
 /* ==============TEAM================= */
 .team-title {
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
@@ -185,6 +187,7 @@ background-color: var(--background-color-theme-light);
 
 /* ===============FILTERS================= */
 .filter-btn {
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
