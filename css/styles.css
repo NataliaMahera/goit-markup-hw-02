@@ -147,16 +147,14 @@ background-color: var(--accent-page-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF; 
 }
 /* ===============/HERO================= */
 
 /* ===============FEATURES================= */
-.features-title {
-letter-spacing: 0.02em;
-}
+
+
 /* ===============/FEATURES================= */
 
 /* ================WORK EXAMPLES============= */
@@ -173,7 +171,6 @@ letter-spacing: 0.02em;
 .team-title {
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: var(--primary-text-color-theme-light);
