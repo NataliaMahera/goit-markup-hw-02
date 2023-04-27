@@ -87,8 +87,8 @@ line-height: 1.5;
 color: var(--primary-text-color-theme-light);
 }
 
-.menu-item-mail-link:hover,
-.menu-item-mail-link:focus {
+.menu-item-link:hover,
+.menu-item-link:focus {
 color: var(--accent-color);
 }
 
