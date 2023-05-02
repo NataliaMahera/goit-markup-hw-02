@@ -25,8 +25,24 @@ address {
     font-style: normal;
 }
 
-h1,h2,h3 {
-letter-spacing: 0.02em;    
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.02em;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
 }
 
 body {
